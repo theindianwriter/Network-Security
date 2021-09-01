@@ -1,0 +1,3 @@
+The project was very insightful and I got to know more about the implemetation of  various components of a security-enhanced EMAIL system.I learnt how to implement encryption/decryption, hashing algorithms, digital signatures using the cryptography library in python.I also learnt various techniques of providing confidentiality,authentication and integrity.
+	Overall it was a great experience while working on the project and really helped to understand concepts and build a curiosity about the subject.
+	

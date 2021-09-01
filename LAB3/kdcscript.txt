@@ -1,0 +1,23 @@
+Script started on 2021-04-09 22:41:18+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="138" LINES="9"]
+]0;arjun@arjun: ~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[01;32marjun@arjun[00m:[01;34m~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[00m$ python3 kdc.py -p 12345 -o out.txt -f passwd.txt
+socket created with ipv4 address over TCP
+bind completed at 127.0.0.1:12345
+connected to 127.0.0.1:37228
+connection closed to 127.0.0.1:37228
+connected to 127.0.0.1:37234
+connection closed to 127.0.0.1:37234
+connected to 127.0.0.1:37242
+connection closed to 127.0.0.1:37242
+^CTraceback (most recent call last):
+  File "kdc.py", line 236, in <module>
+    S.start()
+  File "kdc.py", line 47, in start
+    conn,addr = s.accept()
+  File "/usr/lib/python3.8/socket.py", line 292, in accept
+    fd, addr = self._accept()
+KeyboardInterrupt
+
+]0;arjun@arjun: ~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[01;32marjun@arjun[00m:[01;34m~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[00m$ exit
+exit
+
+Script done on 2021-04-09 22:43:39+05:30 [COMMAND_EXIT_CODE="130"]

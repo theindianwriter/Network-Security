@@ -1,0 +1,18 @@
+Script started on 2021-04-09 22:41:27+05:30 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="138" LINES="9"]
+]0;arjun@arjun: ~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[01;32marjun@arjun[00m:[01;34m~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[00m$ python3 client.py -n bob -m R -s outenc.txt -o out.txt -a 127.0.0.1 -p 12345
+connected to kdc for registration
+registration done!!!
+connected with the sender
+encypted data received !!! 
+successfully read the message from the sender alice
+]0;arjun@arjun: ~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[01;32marjun@arjun[00m:[01;34m~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[00m$ cat passwd.txt
+:bob:127.0.0.1:32515:lAFVUt8WiECAHLBOHDAiuQ==
+:alice:127.0.0.1:34955:lAFVUt8WiECAHLBOHDAiuQ==
+]0;arjun@arjun: ~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[01;32marjun@arjun[00m:[01;34m~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[00m$ cat in.txt
+The message would be send by the sender
+It would be plain text]0;arjun@arjun: ~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[01;32marjun@arjun[00m:[01;34m~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[00m$ cat out.txt
+The message would be send by the sender
+It would be plain text]0;arjun@arjun: ~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[01;32marjun@arjun[00m:[01;34m~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[00m$ exit
+exit
+
+Script done on 2021-04-09 22:43:25+05:30 [COMMAND_EXIT_CODE="0"]

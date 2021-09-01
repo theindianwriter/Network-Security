@@ -1,0 +1,35 @@
+Script started on 2021-03-24 22:43:20+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="138" LINES="14"]
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ python3 main.py CreateKeys "usernames.txt" 1024
+The key pairs are created successfully for the user alice
+The key pairs are created successfully for the user bob
+SUCESSFULLY CREATED ALL THE KEY PAIRS
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ python3  main.py CreateMail COAI  alice  bob email_input.txt email_output.txt sha3-512  aes-256-cbc 1024
+ENCRYPTED EMAIL MESSAGE SUCCESSFULLY AUTHENTICATION TO BE DONE
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ python3  main.py ReadMail COAI  alice bob  email_output.txt plain_ouput.txt sha3-512  aes-256-cbc 1024
+READ EMAIL SUCCESSFULLY AND AUTHENTICATED
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ python3  main.py CreateMail COAI  alice  bob email_input.txt email_output.txt sha3-512  aes-256-cbc 1024
+ENCRYPTED EMAIL MESSAGE SUCCESSFULLY AUTHENTICATION TO BE DONE
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ python3  main.py CreateMail CONF  alice  bob email_input.txt email_output.txt sha3-512  aes-256-cbc 1024
+ENCRYPTED EMAIL MESSAGE SUCCESSFULLY
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ python3  main.py ReadMail CONF  alice bob  email_output.txt plain_ouput.txt sha3-512  aes-256-cbc 1024
+READING EMAIL MESSAGE SUCCESSFULL
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ python3  main.py CreateMail AUIN  alice  bob email_input.txt email_output.txt sha3-512  aes-256-cbc 1024
+SUCESSFULLY DONE TO BE AUTHENTICATED
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ python3  main.py ReadMail AUIN  alice bob  email_output.txt plain_ouput.txt sha3-512  aes-256-cbc 1024
+SUCCESSFULLY AUTHENTICATED!!!
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ python3 main.py CreateKeys "usernames.txt" 2048
+The key pairs are created successfully for the user alice
+The key pairs are created successfully for the user bob
+SUCESSFULLY CREATED ALL THE KEY PAIRS
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ python3  main.py CreateMail AUIN  alice  bob email_input.txt email_output.txt sha512  des-ede3-cbc 2048
+SUCESSFULLY DONE TO BE AUTHENTICATED
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ python3  main.py ReadMail AUIN  alice bob  email_output.txt plain_ouput.txt sha512  aes-256-cbc 2048
+SUCCESSFULLY AUTHENTICATED!!!
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ python3  main.py CreateMail COAI  alice  bob email_input.txt email_output.txt sha512  des-ede3-cbc 2048
+ENCRYPTED EMAIL MESSAGE SUCCESSFULLY AUTHENTICATION TO BE DONE
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ python3  main.py ReadMail COAI  alice bob  email_output.txt plain_ouput.txt sha512  des-ede3-cbc 2048
+READ EMAIL SUCCESSFULLY AND AUTHENTICATED
+]0;arjun@arjun: ~/LAB2[01;32marjun@arjun[00m:[01;34m~/LAB2[00m$ exit
+exit
+
+Script done on 2021-03-24 22:46:26+05:30 [COMMAND_EXIT_CODE="0"]

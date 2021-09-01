@@ -1,0 +1,4 @@
+The experience with this project was very exciting. I learnt a lot of concepts about the SSH server
+ and SSH client.Also during this assigment I learnt to use socket programing and to send messages
+ over the tcp between the client and server.Many os related concepts along the way i also
+ learned.Overall it was a great experience while working on this project.

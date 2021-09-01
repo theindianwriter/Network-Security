@@ -1,0 +1,13 @@
+Script started on 2021-04-09 22:41:23+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="138" LINES="9"]
+]0;arjun@arjun: ~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[01;32marjun@arjun[00m:[01;34m~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[00m$ python3 client.py -n alice -m S -o bob -i in.txt -a 127.0.0.1 -p 12345
+connected to kdc for registration
+registration done!!!
+sleeping for 15 seconds
+end sleeping
+connected to kdc for getting session key
+connected to receiver at 127.0.0.1:32515
+quits after sending message to receiver bob
+]0;arjun@arjun: ~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[01;32marjun@arjun[00m:[01;34m~/Videos/Study/IIT Madras/Sem 2/Network Security(CS6500)/Assignment/Assignment 3[00m$ exit
+exit
+
+Script done on 2021-04-09 22:43:30+05:30 [COMMAND_EXIT_CODE="0"]
